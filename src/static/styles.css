@@ -136,6 +136,32 @@ button:hover {
   display: none;
 }
 
+.participants-list {
+  margin-top: 12px;
+  padding-left: 20px;
+  font-size: 0.9rem;
+  color: #444;
+  list-style: none; /* hide bullets */
+}
+
+.participants-list li {
+  margin-bottom: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-icon {
+  cursor: pointer;
+  color: #c62828;
+  margin-left: 8px;
+  font-weight: bold;
+}
+
+.delete-icon:hover {
+  color: #b71c1c;
+}
+
 footer {
   text-align: center;
   margin-top: 30px;
